@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MurmurCommon\MurmurCommon.csproj" />
+    <ProjectReference Include="..\Sentra.PTT.Utility\Sentra.PTT.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Ice">
+      <HintPath>Ice.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
